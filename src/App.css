@@ -1,8 +1,7 @@
 * {
   margin: 0;
-  padding:0;
+  padding: 0;
 }
-
 
 .navbar {
   height: 50px;
@@ -16,13 +15,13 @@
 }
 
 .navbar h1 {
-  color: #EBEBFF;
+  color: #ebebff;
 }
 
 .rocketicon {
- color: #7F7EFF;
- font-size: 2rem;
- padding-right: 15px;
+  color: #7f7eff;
+  font-size: 2rem;
+  padding-right: 15px;
 }
 
 .cardcontainer {
@@ -69,7 +68,7 @@
 .locationicon {
   padding-right: 4px;
   font-size: 1.3rem;
-  color: #7F7EFF;
+  color: #7f7eff;
 }
 
 .footer {
@@ -82,7 +81,7 @@
 }
 
 .footer a {
- color:#EBEBFF;
+  color: #ebebff;
 }
 
 @media (max-width: 800px) {
