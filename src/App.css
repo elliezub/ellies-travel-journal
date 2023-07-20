@@ -1,42 +1,99 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+* {
+  margin: 0;
+  padding:0;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+
+.navbar {
+  height: 50px;
+  width: 100%;
+  background-color: #161528;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  padding: 10px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar h1 {
+  color: #EBEBFF;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.rocketicon {
+ color: #7F7EFF;
+ font-size: 2rem;
+ padding-right: 15px;
+}
+
+.cardcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
 }
 
 .card {
-  padding: 2em;
+  max-width: 1000px;
+  min-width: 800px;
+  display: flex;
+  background-color: #161528;
+  border-radius: 10px;
+  margin: 25px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 }
 
-.read-the-docs {
-  color: #888;
+.card img {
+  width: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+  max-width: 100%;
+}
+
+.card p {
+  padding-top: 15px;
+}
+
+.card h2 {
+  font-size: 2rem;
+}
+
+.locationdiv {
+  display: flex;
+  align-items: center;
+}
+
+.infodiv {
+  padding: 27px;
+}
+
+.locationicon {
+  padding-right: 4px;
+  font-size: 1.3rem;
+  color: #7F7EFF;
+}
+
+.footer {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.socialicon {
+  padding: 3px;
+}
+
+.footer a {
+ color:#EBEBFF;
+}
+
+@media (max-width: 800px) {
+  .card {
+    flex-direction: column;
+    height: auto;
+    max-width: 100%;
+    min-width: 250px;
+  }
+  .card img {
+    min-width: 50px;
+    width: auto;
+  }
 }
